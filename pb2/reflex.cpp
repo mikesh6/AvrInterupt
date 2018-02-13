@@ -47,6 +47,7 @@ ISR(INT0_vect) {
 	boutonPoussoir = 1;
 	  }
 	  
+	  
 				
     
   
@@ -115,7 +116,7 @@ int main() {
 	cli();
 	
 	
-	if (boutonPoussoir == 1 ) {
+	if (boutonPoussoir == 1  ) {
 		
 		PORTB = VERT;
 		
